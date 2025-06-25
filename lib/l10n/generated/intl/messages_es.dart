@@ -20,14 +20,15 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'es';
 
-  static String m0(currentPage) => "Página ${currentPage}";
+  static String m0(int currentPage) => "Página ${currentPage}";
 
-  static String m1(time) => "Ultima actualización ${time}";
+  static String m1(String time) => "Ultima actualización ${time}";
 
-  static String m2(totalElements) => "Mostrando ${totalElements} elementos";
+  static String m2(int totalElements) => "Mostrando ${totalElements} elementos";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
-  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+  static Map<String, Function> _notInlinedMessages(dynamic _) =>
+      <String, Function>{
         "applyFilterButtonText":
             MessageLookupByLibrary.simpleMessage("Aplicar"),
         "cancelFilteringButtonText":

@@ -325,7 +325,7 @@ final class _LargeTextFieldCellState<T> extends State<_LargeTextFieldCell<T>> {
           newText = await showDialog(
             context: context,
             useSafeArea: true,
-            barrierColor: Colors.black.withOpacity(.3),
+            barrierColor: Colors.black.withValues(alpha: .3),
             builder: (context) => _EditableTextFieldOverlay(
               position: rect,
               formatters: widget.inputFormatters,

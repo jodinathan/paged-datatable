@@ -3,7 +3,7 @@ part of 'paged_datatable_v2.dart';
 /// Represents the filter model of the table.
 ///
 /// Calling [Map] conventional methods should be sufficient to try to get values for filters as this class
-/// extends Map<String, dynamic> and because value is dynamic, you can access it like so:
+/// extends [Map]<[String], [dynamic]> and because value is dynamic, you can access it like so:
 ///
 /// ```dart
 /// final String? myFilterValue = filterModel["filterId"];

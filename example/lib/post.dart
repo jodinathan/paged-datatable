@@ -43,7 +43,7 @@ class Post {
 
   @override
   String toString() =>
-      "Post(id: $id, author: $author, content: ${content.length > 50 ? content.substring(0, 50) + '...' : content}, createdAt: $createdAt, isEnabled: $isEnabled, number: $number, authorGender: $authorGender)";
+      "Post(id: $id, author: $author, content: ${content.length > 50 ? '${content.substring(0, 50)}...' : content}, createdAt: $createdAt, isEnabled: $isEnabled, number: $number, authorGender: $authorGender)";
 }
 
 enum Gender {

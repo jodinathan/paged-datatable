@@ -1,4 +1,4 @@
-library paged_datatable_v2;
+library;
 
 export './l10n/generated/l10n.dart';
 export './src/paged_datatable_v2.dart';
