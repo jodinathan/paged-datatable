@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 /// Represents a value selector that filters the dataset returned and displayed in the table.
 abstract class TableFilter<T extends Object> {

@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 /// The filter bar is displayed before the table header
 class _FilterBar<K extends Comparable<K>, T> extends StatefulWidget {

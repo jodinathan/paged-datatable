@@ -1,4 +1,4 @@
-part of "paged_datatable.dart";
+part of "paged_datatable_v2.dart";
 
 /// A [PagedDataTable] footer widget that renders a refresh button.
 class RefreshTable<K extends Comparable<K>, T> extends StatefulWidget {

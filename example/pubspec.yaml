@@ -1,4 +1,4 @@
-name: paged_datatable_example
+name: paged_datatable_v2_example
 description: A new Flutter project.
 
 publish_to: "none"
@@ -8,7 +8,7 @@ environment:
   sdk: "^3.0.0"
 
 dependencies:
-  paged_datatable:
+  paged_datatable_v2:
     path: ../
   faker: any
   darq: any

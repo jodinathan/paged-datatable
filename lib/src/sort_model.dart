@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 /// SortModel indicates the current field the table is using to sort values.
 final class SortModel {

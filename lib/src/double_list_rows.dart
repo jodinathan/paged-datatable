@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 /// A Row renderer that uses two lists for two directional scrolling
 class _DoubleListRows<K extends Comparable<K>, T> extends StatefulWidget {

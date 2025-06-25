@@ -5,8 +5,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart';
-import 'package:paged_datatable/paged_datatable.dart';
-import 'package:paged_datatable_example/post.dart';
+import 'package:paged_datatable_v2/paged_datatable_v2.dart';
+import 'package:paged_datatable_v2_example/post.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 Future<void> main() async {

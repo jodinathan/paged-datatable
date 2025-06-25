@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 abstract class _RowBuilder<K extends Comparable<K>, T> extends StatefulWidget {
   final int index;

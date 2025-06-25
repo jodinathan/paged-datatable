@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 final class _Header<K extends Comparable<K>, T> extends StatefulWidget {
   final PagedDataTableController<K, T> controller;

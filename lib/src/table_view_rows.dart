@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 /// A row renderer that uses TableView
 /*class _TableViewRows<K extends Comparable<K>, T> extends StatefulWidget {

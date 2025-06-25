@@ -5,9 +5,9 @@ import 'package:flutter/foundation.dart' show kDebugMode;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:intl/intl.dart';
-import 'package:paged_datatable/paged_datatable.dart';
-import 'package:paged_datatable/src/linked_scroll_controller.dart';
-import 'package:paged_datatable/src/table_controller_notifier.dart';
+import 'package:paged_datatable_v2/paged_datatable_v2.dart';
+import 'package:paged_datatable_v2/src/linked_scroll_controller.dart';
+import 'package:paged_datatable_v2/src/table_controller_notifier.dart';
 
 part 'column.dart';
 part 'column_widgets.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paged_datatable/paged_datatable.dart';
+import 'package:paged_datatable_v2/paged_datatable_v2.dart';
 
 final class TableControllerProvider<K extends Comparable<K>, T>
     extends InheritedWidget {

@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 typedef Fetcher<K extends Comparable<K>, T>
     = FutureOr<(List<T> resultset, K? nextPageToken)> Function(int pageSize,

@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 /// Represents the state of a [TableFilter].
 final class FilterState<T extends Object> {

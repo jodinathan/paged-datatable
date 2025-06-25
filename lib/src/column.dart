@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 typedef Setter<T, V> = FutureOr<bool> Function(T item, V value, int rowIndex);
 typedef Getter<T, V> = V? Function(T item, int rowIndex);

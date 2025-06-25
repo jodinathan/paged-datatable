@@ -1,4 +1,4 @@
-part of 'paged_datatable.dart';
+part of 'paged_datatable_v2.dart';
 
 class _DateTimePicker extends StatefulWidget {
   final DateTime firstDate, lastDate;
