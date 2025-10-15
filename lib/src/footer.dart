@@ -12,18 +12,19 @@ class DefaultFooter<K extends Comparable<K>, T> extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final dividerColor = Theme.of(context).dividerColor;
     return Row(
       children: [
         if (child != null) Expanded(child: child!) else const Spacer(),
         RefreshTable<K, T>(),
-        const VerticalDivider(
-            color: Color(0xFFD6D6D6), width: 3, indent: 10, endIndent: 10),
+        VerticalDivider(
+            color: dividerColor, width: 3, indent: 10, endIndent: 10),
         PageSizeSelector<K, T>(),
-        const VerticalDivider(
-            color: Color(0xFFD6D6D6), width: 3, indent: 10, endIndent: 10),
+        VerticalDivider(
+            color: dividerColor, width: 3, indent: 10, endIndent: 10),
         CurrentPage<K, T>(),
-        const VerticalDivider(
-            color: Color(0xFFD6D6D6), width: 3, indent: 10, endIndent: 10),
+        VerticalDivider(
+            color: dividerColor, width: 3, indent: 10, endIndent: 10),
         NavigationButtons<K, T>(),
       ],
     );

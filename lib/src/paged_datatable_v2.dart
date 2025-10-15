@@ -160,7 +160,7 @@ final class _PagedDataTableState<K extends Comparable<K>, T>
                   fixedColumnCount: widget.fixedColumnCount,
                   horizontalController: headerHorizontalController,
                 ),
-                const Divider(height: 0, color: Color(0xFFD6D6D6)),
+                Divider(height: 0, color: Theme.of(context).dividerColor),
 
                 Expanded(
                   child: _DoubleListRows(
@@ -182,7 +182,7 @@ final class _PagedDataTableState<K extends Comparable<K>, T>
                 //     verticalController: verticalController,
                 //   ),
                 // ),
-                const Divider(height: 0, color: Color(0xFFD6D6D6)),
+                Divider(height: 0, color: Theme.of(context).dividerColor),
                 SizedBox(
                   height: theme.footerHeight,
                   child: widget.footer ?? DefaultFooter<K, T>(),

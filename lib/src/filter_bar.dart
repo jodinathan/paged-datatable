@@ -257,7 +257,7 @@ class _FiltersDialog<K extends Comparable<K>, T> extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           filtersList,
-          const Divider(height: 0, color: Color(0xFFD6D6D6)),
+          Divider(height: 0, color: Theme.of(context).dividerColor),
           buttons,
         ],
       ),
